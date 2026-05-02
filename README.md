@@ -1,22 +1,23 @@
-# Credit_Card_Financial_Dashboard
+💳 Credit Card Financial Dashboard
 1. Project Objective :-
-   ● Build an interactive Power BI dashboard to track weekly credit card revenue, transactions, and performance trends.
-2. Dataset :-
-   ● Credit Card Data: Transaction amounts, interest earned, and card tiers (Blue, Gold, etc.).
-   ● Customer Data: Age, income group, and occupation.
+   ● Developed a real-time Power BI dashboard to monitor credit card performance and drive data-backed decisions.
+   
+3. Dataset :-
+   ● Engineered a relational SQL database using two core CSV datasets: Customer Demographics (cust_detail) and Transaction Records (cc_detail).
+   
+4. Techanical Steps :-
+   ● Data Pipeline: Ingested and structured raw CSV data into a SQL database.  
+   ● Modeling: Connected Power BI to SQL for robust data modeling.  
+   ● DAX: Wrote custom DAX for time-intelligence (WoW revenue) and demographic segmentation.  
+   ● Visualization: Deployed two interactive dashboards tracking key financial KPIs.
+   
+6. Key Insights(Week 53):-
+   ● Revenue: Reached $57M YTD, driven by a 28.8% Week-over-Week growth.
+   ● Top Products: Blue and Silver cards account for 93% of all transactions.
+   ● Top Markets: TX, NY, and CA drive 68% of total transaction volume.
+   ● Top Segment: Married male graduates generate the highest revenue at $16M. 
 
-3. Steps :-
-   ● SQL: Extracted raw data.
-   ● Power Query: Cleaned and transformed data (ETL).
-   ● Data Modeling: Built a Star Schema.
-   ● DAX: Created measures for week-over-week (WoW) calculations.
-   ● Power BI: Designed the interactive dashboard.
-
-4. Insights :-
-   ● Mapped WoW revenue growth and peak spending weeks.
-   ● Identified top-performing card tiers and the most profitable customer demographics.
-
-5. Action Items :-
-   ● Marketing: Target high-revenue demographic segments.
-   ● Upselling: Incentivize frequent users to upgrade to premium cards.
-   ● Promotions: Offer rewards based on the most popular transaction channels (e.g., online vs. swipe).
+8. Strategic Action Items :-
+   ● Marketing: Launch targeted campaigns for the highly profitable married-graduate demographic in TX, NY, and CA.
+   ● Upselling: Incentivize the massive Blue/Silver user base to upgrade to Gold/Platinum tiers.
+   ● Retention: Deploy first-purchase discounts to boost the 57.5% activation rate, and implement repayment plans to reduce the 6.06% delinquency rate.
